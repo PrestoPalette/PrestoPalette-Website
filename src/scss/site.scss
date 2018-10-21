@@ -1,0 +1,177 @@
+@charset 'utf-8';
+
+@import 'reset';
+@import 'grid';
+@import 'colors';
+@import 'fonts';
+@import 'typography';
+//@import 'rslides';
+
+$page-max-width: 960px;
+
+body {
+	color: $color-saggio-black;
+	font-family: $font-saggio-reading;
+	background-color: $color-saggio-light-grey;
+}
+
+#headerContainer {
+	width: 100%;
+
+	background-color: $color-saggio-light-grey;
+
+	border-bottom: 1px solid $color-saggio-light-grey-darker-1;
+
+	header {
+		max-width: $page-max-width;
+		margin: 0 auto;
+		padding-top: .3rem;
+		padding-bottom: .3rem;
+
+		border-bottom: 1px solid $color-saggio-light-grey-darker-1;
+
+		#menu-root {
+			font-family: $font-saggio-heading-small;
+			font-size: small;
+			text-align: right;
+
+			padding-top: .5rem;
+
+			ul {
+				text-align: right;
+			}
+
+			li {
+				display: inline-block;
+				padding-left: .8rem;
+			}
+
+			a {
+				color: $color-saggio-black;
+				text-decoration: underline;
+				font-family: $font-saggio-heading-small;
+			}
+		}
+	}
+}
+
+#titleContainer {
+	width: 100%;
+
+	background-color: $color-saggio-light-grey;
+
+	#titleBlock {
+		max-width: $page-max-width;
+		margin: 0 auto;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
+		font-family: $font-saggio-heading;
+		font-size: xx-large;
+		font-weight: bold;
+	}
+}
+
+#superFooterContainer {
+}
+
+#footerContainer {
+	width: 100%;
+	margin-bottom: 0;
+
+	background-color: $color-saggio-dark-grey;
+	color: $color-saggio-light-grey;
+
+	footer {
+		max-width: 940px;
+		margin: 0 auto;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
+		text-align: center;
+		font-size: small;
+		font-family: $font-saggio-reading;
+	}
+
+	a {
+		color: $color-saggio-light-grey;
+		text-decoration: none;
+		font-family: $font-saggio-heading-small;
+	}
+}
+
+#contentContainer {
+	max-width: $page-max-width;
+	margin: 0 auto;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	line-height: 1.5rem;
+	background-color: $color-saggio-light-grey;
+	font-family: $font-saggio-reading;
+
+	h1{
+		font-weight: bold;
+		font-family: $font-saggio-heading
+	}
+
+	h2 {
+		font-weight: bold;
+		font-family: $font-saggio-heading
+	}
+
+	p {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	ul {
+		list-style: disc;
+		margin-left: 1rem;
+		padding-left: 1rem;
+
+		li {
+			margin-top: 0.5rem;
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	strong {
+		font-weight: bold;
+	}
+}
+
+.home-subarea {
+	.subheading {
+		font-size: 1.2em;
+		font-family: $font-saggio-heading;
+		font-weight: bold;
+		color: $color-saggio-dark-grey;	
+		text-align: center;
+
+		a {
+			text-decoration: none;
+			color: $color-saggio-dark-grey;
+		}
+	}
+	
+	p {
+		font-size: 1.0em;
+	}
+}
+
+h1.home {
+	font-size: 1.0em;
+	font-family: $font-saggio-heading;
+	font-weight: bold;
+	color: $color-saggio-dark-grey;
+	text-align: center;
+}
+
+h2.home {
+	font-size: 0.5em;
+	font-family: $font-saggio-heading;
+	font-weight: bold;
+	color: $color-saggio-dark-grey;
+	text-align: center;
+	padding-top:10px;
+}

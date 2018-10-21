@@ -1,0 +1,23 @@
+$color-saggio-black: rgb(0, 0, 0);
+$color-saggio-white: rgb(255, 255, 255);
+
+
+$color-saggio-light-grey: rgb(238, 238, 238);
+$color-saggio-dark-grey: rgb(68, 68, 68);
+
+// other grey
+$color-saggio-light-grey-darker-1: rgb(204, 204, 204); 
+
+//rgb(119, 119, 119); //dark
+
+$color-saggio-red: rgb(238, 49, 61);
+
+.shadow {
+	-moz-box-shadow: 0 0 30px 5px $color-saggio-dark-grey;
+	-webkit-box-shadow: 0 0 30px 5px $color-saggio-dark-grey;
+	box-shadow: 0 0 30px 5px $color-saggio-dark-grey;
+}
+
+.red {
+	color: $color-saggio-red;
+}
